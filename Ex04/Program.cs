@@ -1,10 +1,11 @@
 ﻿Console.WriteLine("Digite um numero inteiro");
 int num = int.Parse(Console.ReadLine());
-for (int d = 0; d <= num; d++)
+for (int d = 1; d <= num; d++)
 {
-    if (d % 2 == 0)
+    
+    if (d % 1 == 0 && i % d == 0)
     {
-        continue;
+        Console.WriteLine(d);
     }
-    Console.WriteLine(d);
+    
 }

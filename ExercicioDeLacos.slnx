@@ -1,5 +1,8 @@
 <Solution>
   <Project Path="Ex01/Ex01.csproj" />
   <Project Path="Ex02/Ex02.csproj" />
+  <Project Path="Ex03/Ex03.csproj" Id="b320c6fc-fa33-4af7-9d93-91e7873dc912" />
+  <Project Path="Ex04/Ex04.csproj" Id="bc054fd5-27ae-4e78-affd-08e26d3b2598" />
+  <Project Path="Ex05/Ex05.csproj" Id="f47fda1a-124f-4102-98bc-7b61714fa3ab" />
   <Project Path="ExercicioDeLacos/ExercicioDeLacos.csproj" />
 </Solution>
