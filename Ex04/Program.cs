@@ -1,11 +1,23 @@
-﻿Console.WriteLine("Digite um numero inteiro");
-int num = int.Parse(Console.ReadLine());
-for (int d = 1; d <= num; d++)
+﻿int contador = 0;
+int numero;
+Console.WriteLine("Informe o numero desejado: ");
+numero = int.Parse(Console.ReadLine());
+for (int i = 2; i <= numero; i++)
 {
-    
-    if (d % 1 == 0 && i % d == 0)
+    contador = 0;
+    for (int j = i; j >= 2; j--)
     {
-        Console.WriteLine(d);
+        if (i % j == 0)
+        {
+            contador++;
+        }
+        if (contador > 1)
+        {
+            break;
+        }
     }
-    
+    if (contador <= 1)
+    {
+        Console.WriteLine(i);
+    }
 }
